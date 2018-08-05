@@ -136,6 +136,8 @@ add_library(${PROJECT_NAME}
   ${CPP_FILES}
 )
 
+add_compile_options(-std=c++11)
+
 add_dependencies(${PROJECT_NAME}
   ${Boost_EXPORTED_TARGETS}
   ${catkin_EXPORTED_TARGETS}
